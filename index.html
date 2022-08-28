@@ -1,3 +1,21 @@
+ <!DOCTYPE html>
+ <html>
+        <head>
+               <title>Canvas</title>
+        </head>
+<body>
+       <canvas id="myCanvas" style="width: 800px; height: 400px;"></canvas>
+       <Script type="text/javascript">
+              var c=document.getElementById("myCanvas");
+
+var ctx= c.getContext ("2d");
+ctx.beginPath();
+ctx.moveTo (60,15);
+ctx.lineTo (45,30)
+ctx.lineTo (55,30)
+
+ 
+ 
  ctx.lineTo (55,55);
        ctx.lineTo (30,55);
        ctx.lineTo (30,45);
